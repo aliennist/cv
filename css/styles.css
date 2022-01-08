@@ -1,0 +1,24 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  font-family: verdana;
+  font-size: 18px;
+}
+h1 {
+  font-family: Arial;
+  font-size: 28px;
+}
+h3 {
+  font-family: verdana;
+  font-size: 20px;
+}
+ul {
+  font-family: verdana;
+  font-size: 18px;
+}
+table {
+  font-family: verdana;
+  font-size: 14px;
+}
