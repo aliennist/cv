@@ -1,24 +1,136 @@
+/**********ELEMENT SELECTORS**********/
 body {
-  background-color: lightblue;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 5.625rem;
+  /**** ignores parent font sizing vs em is inherited**/
+  margin: auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
 
 p {
-  font-family: verdana;
-  font-size: 18px;
+  line-height: 2;
 }
-h1 {
-  font-family: Arial;
-  font-size: 28px;
+
+/********CLASS SELECTORS********/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
 }
-h3 {
-  font-family: verdana;
+
+.middle-container {
+  padding-bottom: 100px;
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 27%;
+  bottom: 313px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  top: 40px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.profile_img {
+  border-radius: 100%;
+  margin: 50px auto 30px auto;
+}
+
+.code-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.transcribe-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  color: #ffffff;
   font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
-ul {
-  font-family: verdana;
-  font-size: 18px;
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
-table {
-  font-family: verdana;
-  font-size: 14px;
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
